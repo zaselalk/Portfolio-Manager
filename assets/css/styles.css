@@ -1,0 +1,36 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+  height: 100%;
+  max-width: 960px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.text-badge {
+  padding: 3px;
+  background: var(--bs-primary-bg-subtle);
+  padding-right: 14px;
+  padding-left: 7px;
+}
+
+.banner {
+}
+
+.projects-list {
+  --bs-gutter-y: 2rem;
+}
+
+footer {
+  /*--bs-body-color: var(--bs-primary-border-subtle);*/
+  --bs-body-bg: var(--bs-primary-border-subtle);
+  background: #4b4b4d;
+}
+
+ul {
+}
+
