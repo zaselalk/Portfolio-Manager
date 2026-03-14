@@ -7,7 +7,7 @@ start_session();
 
 // Already logged in → go to dashboard
 if (is_logged_in()) {
-    header('Location: dashboard.php');
+    header('Location: /admin/dashboard.php');
     exit;
 }
 
@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if ($row && password_verify($password, $row['password_hash'])) {
             login_user((int) $row['id']);
-            header('Location: dashboard.php');
+            header('Location: /admin/dashboard.php');
             exit;
         } else {
             $error = 'Invalid username or password.';
