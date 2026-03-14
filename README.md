@@ -20,6 +20,14 @@ Portfolio Manager is a simple tool that can be self hosted to display a simple p
    - **Default credentials:** username `admin`, password `admin123`
    - ⚠️ **Change the password immediately** after your first login.
 
+## Screenshots
+
+### Home Page
+![Home Page](assets/img/screenshots/homepage.png)
+
+### Admin Dashboard
+![Admin Dashboard](assets/img/screenshots/dashboard.png)
+
 ## Features
 
 - **Dynamic portfolio** – name, title, bio, social links, and "available for hire" banner are all editable through the admin panel.
