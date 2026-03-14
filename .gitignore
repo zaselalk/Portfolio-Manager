@@ -1,0 +1,8 @@
+# SQLite database (generated at runtime)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# Uploaded project images (user content)
+uploads/projects/*
+!uploads/projects/.gitkeep
